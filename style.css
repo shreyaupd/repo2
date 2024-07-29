@@ -28,13 +28,13 @@ body {
     height: 100px;
     background: #fff;
     border-radius: 100px;
-    filter: drop-shadow(8px 8px 0px #000500);
+    box-shadow:(2px 2px 0px #000500);
     animation: animatecloud 2s ease-in-out infinite;
 }
 
 @keyframes animatecloud {
     30% {
-        filter: drop-shadow(8px 8px 0 #0001) drop-shadow(0 0 0 #fff);
+        box-shadow:(8px 8px 0 #0001) drop-shadow(0 0 0 #fff);
     }
 
     60% {
